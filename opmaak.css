@@ -10,14 +10,14 @@ float: inline-start;
 }
 h2 { 
 color: black;
-float: right;
+float: middle;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 12%;
-  background-color: black;
+  background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
