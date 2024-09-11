@@ -10,7 +10,7 @@ float: inline-start;
 }
 h2 { 
 color: black;
-float: inline-start;
+float: right;
 }
 ul {
   list-style-type: none;
