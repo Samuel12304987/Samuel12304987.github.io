@@ -23,10 +23,9 @@ li a {
 }
 li a:hover {
   background-color: #111;
-
-
 }
-img {float: right;}
+h1 {text-align: center;
+color: black;}
 
 p {text-align: center;}
 
