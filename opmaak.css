@@ -39,6 +39,8 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-img {float: right;}
+img {float: right;
+size: 60px;}
+
 
 p {text-align: center;}
