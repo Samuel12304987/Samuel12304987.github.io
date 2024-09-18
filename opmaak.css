@@ -1,5 +1,7 @@
 body {
-    background-color: lightgrey;
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x; 
+  background-color: lightgrey;
     text-align: left;
     color: black
   }
