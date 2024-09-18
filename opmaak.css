@@ -5,6 +5,7 @@ body {
     text-align: left;
     color: black
   }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -40,3 +41,7 @@ img {float: right;
 size: 60px;}
 p {text-align: center;}
 iframe {float: left;}
+
+span {
+  display: block;
+}
