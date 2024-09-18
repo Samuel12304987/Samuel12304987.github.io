@@ -31,7 +31,9 @@ color: black;}
 h2 {color: black;
 text-align: center}
 
-p {text-align: center;}
+p {text-align: center;
+font-size: small;}
+
 
 
 img {float: right;
