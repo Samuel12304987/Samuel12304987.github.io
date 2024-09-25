@@ -29,9 +29,11 @@ li a:hover {
   color: black;
 }
 h1 {text-align: center;
-color: black;}
+color: black;
+text-decoration-line: underline;}
 h2 {color: black;
-text-align: center}
+text-align: center;
+text-decoration-line: underline;}
 
 img {float: right;
 size: 60px;}
