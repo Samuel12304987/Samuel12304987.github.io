@@ -39,15 +39,24 @@ size: 60px;}
 span {
   display: block;
 }
-.indexparagraaf{
-text-align: middle;
-}
 
-/* Create three equal columns that floats next to each other */
+
+
+
+/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 15px;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -58,11 +67,8 @@ text-align: middle;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
     width: 100%;
   }
-}
-* {
-  box-sizing: border-box;
 }
