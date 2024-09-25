@@ -1,7 +1,6 @@
 body {
   background-image: url("gradient_bg.png");
   background-repeat: repeat-x; 
-  background-color: lightgrey;
     text-align: middle;
     color: black
   }
@@ -70,13 +69,6 @@ span {
   .column.side, .column.middle {
     width: 100%;
   }
-}
-/* Style the footer */
-.footer {
-  background-color:black;
-  padding: 10px;
-  text-align: center;
-  color: white;
 }
 
 
