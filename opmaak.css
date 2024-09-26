@@ -1,11 +1,13 @@
-/*achtergrond van hele body*/
+/*Dit is de opmaak van alle body's die er zijn, behalve diegene die ik met een class heb bewerkt.*/
 body { 
   background-image: url("gradient_bg.png");
   background-repeat: repeat-x; 
-    text-align: center;
+    text-align: left;
     color: black
   }
 
+
+/*Dit is een deel van het horizontale menu. */
 ul {
   list-style-type: none;
   margin: 0;
@@ -13,10 +15,17 @@ ul {
   overflow: hidden;
   background-color: black
 }
+
+
+
+/*Dit zorgt ervoor dat het horizontale menu zoveel mogelijk aan de linkerkant word geplaatst.*/
 li {
   float: left;
 }
 
+
+
+/*Dit is opmaak van het horizontale menu, inclusief de opmaak van de tekst die in het horizontale menu staat.*/
 li a {
   display: block;
   color: white;
@@ -24,20 +33,29 @@ li a {
   padding: 20px 84px;
   text-decoration: none;
 }
+
+
+/*Nog meer opmaak van het horizontale menu, deze code is voor wanneer je met je muis eroverheen gaat.*/
 li a:hover {
   background-color: white;
   color: black;
 }
+
+/*De opmaak van de koppen.*/
 h1 {text-align: center;
 color: black}
 h2 {color: black;
 text-align: center;
 text-decoration-line: underline;}
 
+
+
+/*De positionering en omvang van de plaatjes.*/
 img {float: right;
 size: 60px;}
 
 
+/*Dit zorgt ervoor dat niet alle tekst naast elkaar komt te staan, maar dat je ook naar beneden kan gaan.*/
 span {
   display: block;
 }
@@ -45,18 +63,18 @@ span {
 
 
 
-/* Create three unequal columns that floats next to each other */
+/* Zorgt voor de drie kolommen.*/
 .column {
   float: left;
   padding: 10px;
 }
 
-/* Left and right column */
+/* Positionering van de kolommen aan de buitenkant.*/
 .column.side {
   width: 25%;
 }
 
-/* Middle column */
+/* Positionering van de middelste kolom*/
 .column.middle {
   width: 45%;
 }
@@ -77,8 +95,11 @@ span {
 .binairstelselopmaak {
 width: 60%;
 text-align: middle;
+float: right;
+size: 80px;
 }
 .RGB { 
 size: 80px
 }
+
 
