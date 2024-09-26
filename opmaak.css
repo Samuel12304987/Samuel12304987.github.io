@@ -99,3 +99,7 @@ text-align: left;
 
 iframe {float: center;
 }
+.navbar {
+position: fixed;
+
+}
