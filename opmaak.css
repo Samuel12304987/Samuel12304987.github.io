@@ -124,5 +124,11 @@ float: left;
   width: 30%;
   float: center;
 }
+.Compressieopmaak {
+text-align: center;
+border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+}
 
   
