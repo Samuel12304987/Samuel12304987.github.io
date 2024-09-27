@@ -127,9 +127,7 @@ text-align: center;
   width: 25%-75%;
 }
 #lossycompressie {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+float: inline-end;
 }
 
   
