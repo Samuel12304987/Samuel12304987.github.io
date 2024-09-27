@@ -124,7 +124,7 @@ text-align: center;
   width: 25%-75%;
 }
 #lossycompressie {
-float: inline-end;
+object-position: 40%;
 }
 
 p {
