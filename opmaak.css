@@ -52,7 +52,7 @@ text-decoration-line: underline;}
 
 
 /*De positionering en omvang van de plaatjes.*/
-img {object-position: center;
+img {margin:auto;
 size: 60px;}
 
 
