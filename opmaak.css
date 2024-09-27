@@ -129,6 +129,9 @@ text-align: center;
 #lossycompressie {
   float: center;
   margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
   
