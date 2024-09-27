@@ -52,7 +52,9 @@ text-decoration-line: underline;}
 
 
 /*De positionering en omvang van de plaatjes.*/
-img {margin:auto;
+img {margin-left:auto;
+margin-right: auto;
+display:block;
 size: 60px;}
 
 
@@ -80,24 +82,27 @@ span {
   width: 45%;
 }
 
-/* Clear floats after the columns */
+/* Zorgt dat er geen andere dingen meer naast kunnen komen, zoals plaatjes */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Zorgt dat de kolommen goed terecht komen. */
 @media screen and (max-width: 500px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
 
+/* Opmaak voor de pagina van het binair stelsel.*/
 .binairstelselopmaak {
 width: 60%;
 text-align: left;
 }
 
+
+/*Opmaak van Filmpjes en spelletje*/
 iframe {float: center;
 }
 .footer {
@@ -110,25 +115,33 @@ color: white;
 text-align: center;
 }
 
+
+/*Opmaak van een plaatje */
 #RGB {
 width: 30%;
 float: left;
 }
+/*opmaak van een plaatje */
 #CMY {
   width: 30%;
   float: right;
 }
+/* Opmaak van de tekst van Compressie.html*/
 .Compressieopmaak {
 text-align: center;
   float: center;
   width: 25%-75%;
 }
+
+/* Opmaak van een plaatje*/
 #lossycompressie {
 float: center;
 }
+/*Opmaak van een plaatje*/
 #losslesscompressie {
 float: center
 }
+/* Opmaak van alle paragraaftekst*/
 p {
 font-size:larger;
 }
