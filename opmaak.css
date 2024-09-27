@@ -126,7 +126,9 @@ text-align: center;
 #lossycompressie {
 float: center;
 }
-
+#losslesscompressie {
+float: center
+}
 p {
 font-size:larger;
 }
