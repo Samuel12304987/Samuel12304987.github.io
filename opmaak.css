@@ -114,5 +114,9 @@ text-align: center;
 
 #RGB {
 width: 30%;
-float: right;
+float: left;
+}
+#CMY {
+  width: 30%;
+  float: right;
 }
