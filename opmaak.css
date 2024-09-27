@@ -110,3 +110,8 @@ width: 100%;
 background-color: black;
 color: white;
 }
+
+#RGB {
+width: 30%;
+float: right;
+}
