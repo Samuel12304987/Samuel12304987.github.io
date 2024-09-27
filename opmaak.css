@@ -129,5 +129,9 @@ text-align: center;
   float: center;
   width: 25%-75%;
 }
+#lossy.compressie {
+  float: center;
+  margin: 20px;
+}
 
   
